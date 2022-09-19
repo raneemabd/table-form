@@ -1,0 +1,71 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100%;
+    background: rgb(101,168,220);
+    background: linear-gradient(90deg, rgba(101,168,220,1) 0%, rgba(31,37,53,1) 35%);
+}
+.container {
+    width: 65%;
+    margin: 15% auto;
+    background-color: #161a26;
+    
+
+  
+}
+table {
+    width: 100%;
+}
+
+h1 {
+    color: #D5E6F6;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 4%;
+    padding-left: 3px;
+    text-decoration: underline;
+}
+form {
+    width: 100%;
+    margin: 0 auto;
+
+}
+table td {
+    width: 50%;
+
+}
+td img {
+    width: 100%;
+    margin-bottom: -6px;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+td.block *{
+    width: 70%;
+    /* margin-left: 10%; */
+    
+}
+option{
+    color: black;
+}
+
+input , select {
+    color: #D5E6F6;
+    border: none;
+    outline: none;
+    border-bottom: solid 0.1px #D5E6F6;
+    background-color: transparent;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    }
+    ::placeholder{
+        color: #D5E6F6;
+    }
+    .back-color{
+        background: rgb(36,40,87);
+        background: linear-gradient(90deg, rgba(36,40,87,1) 0%, rgba(13,16,40,1) 38%);
+        margin-top: 2%;
+    }
